@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51054ACB291283A90031FA72 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51054ACA291283A90031FA72 /* Activities.swift */; };
+		51054ACD2912A8450031FA72 /* Destnation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51054ACC2912A8450031FA72 /* Destnation.swift */; };
+		51054ACF2912ACEB0031FA72 /* RegesterWithPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51054ACE2912ACEB0031FA72 /* RegesterWithPhone.swift */; };
+		51054AD12912AD9A0031FA72 /* EmpassyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51054AD02912AD9A0031FA72 /* EmpassyInfo.swift */; };
+		51054AD32912AE840031FA72 /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51054AD22912AE840031FA72 /* StartingView.swift */; };
+		51054AD52912B58A0031FA72 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51054AD42912B58A0031FA72 /* Verification.swift */; };
+		51054AD72913D9EB0031FA72 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51054AD62913D9EB0031FA72 /* SplashScreenView.swift */; };
+		51054AD92913DAE80031FA72 /* Plans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51054AD82913DAE80031FA72 /* Plans.swift */; };
+		51054ADB2913E3610031FA72 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51054ADA2913E3610031FA72 /* Settings.swift */; };
+		51054ADD2913F55A0031FA72 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51054ADC2913F55A0031FA72 /* MainView.swift */; };
+		51054ADF291526FC0031FA72 /* CurrentPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51054ADE291526FC0031FA72 /* CurrentPlan.swift */; };
+		513D64DD29096D0E00A9461F /* TripifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513D64DC29096D0E00A9461F /* TripifyApp.swift */; };
+		513D64E129096D0F00A9461F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 513D64E029096D0F00A9461F /* Assets.xcassets */; };
+		513D64E429096D0F00A9461F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 513D64E329096D0F00A9461F /* Preview Assets.xcassets */; };
+		513D64EE29096D0F00A9461F /* TripifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513D64ED29096D0F00A9461F /* TripifyTests.swift */; };
+		513D64F829096D0F00A9461F /* TripifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513D64F729096D0F00A9461F /* TripifyUITests.swift */; };
+		513D64FA29096D0F00A9461F /* TripifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513D64F929096D0F00A9461F /* TripifyUITestsLaunchTests.swift */; };
+		51F62FA9290E951E0066F310 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F62FA8290E951E0066F310 /* Notifications.swift */; };
+		51F62FAB290EA4840066F310 /* Hotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F62FAA290EA4840066F310 /* Hotels.swift */; };
+		51F62FAD290EB31C0066F310 /* EditPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F62FAC290EB31C0066F310 /* EditPhoneNumber.swift */; };
+		51F62FB0290EB3BC0066F310 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 51F62FAF290EB3BC0066F310 /* iPhoneNumberField */; };
+		51F62FB22911510E0066F310 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F62FB12911510E0066F310 /* Restaurant.swift */; };
+		51F62FB4291153970066F310 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F62FB3291153970066F310 /* TabBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		513D64EA29096D0F00A9461F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 513D64D129096D0E00A9461F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 513D64D829096D0E00A9461F;
+			remoteInfo = Tripify;
+		};
+		513D64F429096D0F00A9461F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 513D64D129096D0E00A9461F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 513D64D829096D0E00A9461F;
+			remoteInfo = Tripify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51054ACA291283A90031FA72 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		51054ACC2912A8450031FA72 /* Destnation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destnation.swift; sourceTree = "<group>"; };
+		51054ACE2912ACEB0031FA72 /* RegesterWithPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegesterWithPhone.swift; sourceTree = "<group>"; };
+		51054AD02912AD9A0031FA72 /* EmpassyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpassyInfo.swift; sourceTree = "<group>"; };
+		51054AD22912AE840031FA72 /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+		51054AD42912B58A0031FA72 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		51054AD62913D9EB0031FA72 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		51054AD82913DAE80031FA72 /* Plans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plans.swift; sourceTree = "<group>"; };
+		51054ADA2913E3610031FA72 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		51054ADC2913F55A0031FA72 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		51054ADE291526FC0031FA72 /* CurrentPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPlan.swift; sourceTree = "<group>"; };
+		513D64D929096D0E00A9461F /* Tripify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tripify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		513D64DC29096D0E00A9461F /* TripifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripifyApp.swift; sourceTree = "<group>"; };
+		513D64E029096D0F00A9461F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		513D64E329096D0F00A9461F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		513D64E929096D0F00A9461F /* TripifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		513D64ED29096D0F00A9461F /* TripifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripifyTests.swift; sourceTree = "<group>"; };
+		513D64F329096D0F00A9461F /* TripifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		513D64F729096D0F00A9461F /* TripifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripifyUITests.swift; sourceTree = "<group>"; };
+		513D64F929096D0F00A9461F /* TripifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51F62FA8290E951E0066F310 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		51F62FAA290EA4840066F310 /* Hotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotels.swift; sourceTree = "<group>"; };
+		51F62FAC290EB31C0066F310 /* EditPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneNumber.swift; sourceTree = "<group>"; };
+		51F62FB12911510E0066F310 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		51F62FB3291153970066F310 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		513D64D629096D0E00A9461F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F62FB0290EB3BC0066F310 /* iPhoneNumberField in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513D64E629096D0F00A9461F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513D64F029096D0F00A9461F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		513D64D029096D0E00A9461F = {
+			isa = PBXGroup;
+			children = (
+				513D64DB29096D0E00A9461F /* Tripify */,
+				513D64EC29096D0F00A9461F /* TripifyTests */,
+				513D64F629096D0F00A9461F /* TripifyUITests */,
+				513D64DA29096D0E00A9461F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		513D64DA29096D0E00A9461F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				513D64D929096D0E00A9461F /* Tripify.app */,
+				513D64E929096D0F00A9461F /* TripifyTests.xctest */,
+				513D64F329096D0F00A9461F /* TripifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		513D64DB29096D0E00A9461F /* Tripify */ = {
+			isa = PBXGroup;
+			children = (
+				513D64DC29096D0E00A9461F /* TripifyApp.swift */,
+				51054ADE291526FC0031FA72 /* CurrentPlan.swift */,
+				51054ADC2913F55A0031FA72 /* MainView.swift */,
+				51054ADA2913E3610031FA72 /* Settings.swift */,
+				51054AD82913DAE80031FA72 /* Plans.swift */,
+				51054AD62913D9EB0031FA72 /* SplashScreenView.swift */,
+				51054AD42912B58A0031FA72 /* Verification.swift */,
+				51054AD22912AE840031FA72 /* StartingView.swift */,
+				51054AD02912AD9A0031FA72 /* EmpassyInfo.swift */,
+				51054ACE2912ACEB0031FA72 /* RegesterWithPhone.swift */,
+				51054ACC2912A8450031FA72 /* Destnation.swift */,
+				51054ACA291283A90031FA72 /* Activities.swift */,
+				51F62FB3291153970066F310 /* TabBar.swift */,
+				51F62FB12911510E0066F310 /* Restaurant.swift */,
+				51F62FAC290EB31C0066F310 /* EditPhoneNumber.swift */,
+				51F62FAA290EA4840066F310 /* Hotels.swift */,
+				51F62FA8290E951E0066F310 /* Notifications.swift */,
+				513D64E029096D0F00A9461F /* Assets.xcassets */,
+				513D64E229096D0F00A9461F /* Preview Content */,
+			);
+			path = Tripify;
+			sourceTree = "<group>";
+		};
+		513D64E229096D0F00A9461F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				513D64E329096D0F00A9461F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		513D64EC29096D0F00A9461F /* TripifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				513D64ED29096D0F00A9461F /* TripifyTests.swift */,
+			);
+			path = TripifyTests;
+			sourceTree = "<group>";
+		};
+		513D64F629096D0F00A9461F /* TripifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				513D64F729096D0F00A9461F /* TripifyUITests.swift */,
+				513D64F929096D0F00A9461F /* TripifyUITestsLaunchTests.swift */,
+			);
+			path = TripifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		513D64D829096D0E00A9461F /* Tripify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513D64FD29096D0F00A9461F /* Build configuration list for PBXNativeTarget "Tripify" */;
+			buildPhases = (
+				513D64D529096D0E00A9461F /* Sources */,
+				513D64D629096D0E00A9461F /* Frameworks */,
+				513D64D729096D0E00A9461F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tripify;
+			packageProductDependencies = (
+				51F62FAF290EB3BC0066F310 /* iPhoneNumberField */,
+			);
+			productName = Tripify;
+			productReference = 513D64D929096D0E00A9461F /* Tripify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		513D64E829096D0F00A9461F /* TripifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513D650029096D0F00A9461F /* Build configuration list for PBXNativeTarget "TripifyTests" */;
+			buildPhases = (
+				513D64E529096D0F00A9461F /* Sources */,
+				513D64E629096D0F00A9461F /* Frameworks */,
+				513D64E729096D0F00A9461F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				513D64EB29096D0F00A9461F /* PBXTargetDependency */,
+			);
+			name = TripifyTests;
+			productName = TripifyTests;
+			productReference = 513D64E929096D0F00A9461F /* TripifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		513D64F229096D0F00A9461F /* TripifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513D650329096D0F00A9461F /* Build configuration list for PBXNativeTarget "TripifyUITests" */;
+			buildPhases = (
+				513D64EF29096D0F00A9461F /* Sources */,
+				513D64F029096D0F00A9461F /* Frameworks */,
+				513D64F129096D0F00A9461F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				513D64F529096D0F00A9461F /* PBXTargetDependency */,
+			);
+			name = TripifyUITests;
+			productName = TripifyUITests;
+			productReference = 513D64F329096D0F00A9461F /* TripifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		513D64D129096D0E00A9461F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					513D64D829096D0E00A9461F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					513D64E829096D0F00A9461F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 513D64D829096D0E00A9461F;
+					};
+					513D64F229096D0F00A9461F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 513D64D829096D0E00A9461F;
+					};
+				};
+			};
+			buildConfigurationList = 513D64D429096D0E00A9461F /* Build configuration list for PBXProject "Tripify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 513D64D029096D0E00A9461F;
+			packageReferences = (
+				51F62FAE290EB3BC0066F310 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
+			productRefGroup = 513D64DA29096D0E00A9461F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				513D64D829096D0E00A9461F /* Tripify */,
+				513D64E829096D0F00A9461F /* TripifyTests */,
+				513D64F229096D0F00A9461F /* TripifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		513D64D729096D0E00A9461F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513D64E429096D0F00A9461F /* Preview Assets.xcassets in Resources */,
+				513D64E129096D0F00A9461F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513D64E729096D0F00A9461F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513D64F129096D0F00A9461F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		513D64D529096D0E00A9461F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51054AD52912B58A0031FA72 /* Verification.swift in Sources */,
+				51054AD92913DAE80031FA72 /* Plans.swift in Sources */,
+				51054AD32912AE840031FA72 /* StartingView.swift in Sources */,
+				51054ACB291283A90031FA72 /* Activities.swift in Sources */,
+				51F62FA9290E951E0066F310 /* Notifications.swift in Sources */,
+				51F62FB22911510E0066F310 /* Restaurant.swift in Sources */,
+				51F62FAB290EA4840066F310 /* Hotels.swift in Sources */,
+				51054AD72913D9EB0031FA72 /* SplashScreenView.swift in Sources */,
+				51054AD12912AD9A0031FA72 /* EmpassyInfo.swift in Sources */,
+				51054ADD2913F55A0031FA72 /* MainView.swift in Sources */,
+				51054ADB2913E3610031FA72 /* Settings.swift in Sources */,
+				51054ACF2912ACEB0031FA72 /* RegesterWithPhone.swift in Sources */,
+				51F62FAD290EB31C0066F310 /* EditPhoneNumber.swift in Sources */,
+				513D64DD29096D0E00A9461F /* TripifyApp.swift in Sources */,
+				51054ACD2912A8450031FA72 /* Destnation.swift in Sources */,
+				51054ADF291526FC0031FA72 /* CurrentPlan.swift in Sources */,
+				51F62FB4291153970066F310 /* TabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513D64E529096D0F00A9461F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513D64EE29096D0F00A9461F /* TripifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513D64EF29096D0F00A9461F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513D64FA29096D0F00A9461F /* TripifyUITestsLaunchTests.swift in Sources */,
+				513D64F829096D0F00A9461F /* TripifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		513D64EB29096D0F00A9461F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 513D64D829096D0E00A9461F /* Tripify */;
+			targetProxy = 513D64EA29096D0F00A9461F /* PBXContainerItemProxy */;
+		};
+		513D64F529096D0F00A9461F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 513D64D829096D0E00A9461F /* Tripify */;
+			targetProxy = 513D64F429096D0F00A9461F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		513D64FB29096D0F00A9461F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		513D64FC29096D0F00A9461F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		513D64FE29096D0F00A9461F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tripify/Preview Content\"";
+				DEVELOPMENT_TEAM = 63YDRJUU58;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kawthar.Tripify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		513D64FF29096D0F00A9461F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tripify/Preview Content\"";
+				DEVELOPMENT_TEAM = 63YDRJUU58;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kawthar.Tripify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		513D650129096D0F00A9461F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kawthar.TripifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tripify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tripify";
+			};
+			name = Debug;
+		};
+		513D650229096D0F00A9461F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kawthar.TripifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tripify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tripify";
+			};
+			name = Release;
+		};
+		513D650429096D0F00A9461F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kawthar.TripifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tripify;
+			};
+			name = Debug;
+		};
+		513D650529096D0F00A9461F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kawthar.TripifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tripify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		513D64D429096D0E00A9461F /* Build configuration list for PBXProject "Tripify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513D64FB29096D0F00A9461F /* Debug */,
+				513D64FC29096D0F00A9461F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513D64FD29096D0F00A9461F /* Build configuration list for PBXNativeTarget "Tripify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513D64FE29096D0F00A9461F /* Debug */,
+				513D64FF29096D0F00A9461F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513D650029096D0F00A9461F /* Build configuration list for PBXNativeTarget "TripifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513D650129096D0F00A9461F /* Debug */,
+				513D650229096D0F00A9461F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513D650329096D0F00A9461F /* Build configuration list for PBXNativeTarget "TripifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513D650429096D0F00A9461F /* Debug */,
+				513D650529096D0F00A9461F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		51F62FAE290EB3BC0066F310 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		51F62FAF290EB3BC0066F310 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51F62FAE290EB3BC0066F310 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 513D64D129096D0E00A9461F /* Project object */;
+}
